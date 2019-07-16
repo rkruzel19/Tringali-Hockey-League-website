@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   Reset stylesheet
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------------------
+---------------------------------------------------------*/
+* {
+	background-color: rgb(127,127,127);
+}
+
+body {
+  background-color: rgb(127,127,127);
+}
+
+header {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+}
+
+
+
+header .logo {
+  height: 100%;
+	width: 20%;
+  display: inline-block;
+}
+
+nav {
+  width: 79%;
+	height: 300px;
+	text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav .img-background {
+	background-image: url("img/lineup.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+nav ul {
+	background-color: transparent;
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	right: 0px;
+}
+
+nav ul li {
+	background: rgb(256,256,256);
+  display: inline;
+  font-size: 40px;
+	border-style: solid;
+  border-width: 5px;
+	margin: 20px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0 30px;
+	background-color: transparent;
+	font-family: fantasy;
+	color: #ff6347;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+main {
+	background-color: blue;
+	width: 100%;
+	height: 100%;
+}
+
+main p {
+	height: 1000px;
+	background-color: yellow;
+	font-size: 80px;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	font-size: 80px;
+	text-align: center;
+	line-height: 200px;
+	font-style: italic;
+  font-family: cursive;
+	color: #00ff7f;
+}
