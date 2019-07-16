@@ -202,11 +202,46 @@ main h1 {
 	padding: 10px;
 }
 
-/* main p {
-	height: 1000px;
-	background-color: yellow;
-	font-size: 80px;
-} */
+.map {
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 500px;
+	width: 600px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none!important;
+	height: 500px;
+	width: 600px;
+}
+
+.map h2 {
+	font-size: 25px;
+	padding-top: 5px;
+}
+
+.contacts {
+	font-size: 30px;
+	padding: 20px 0;
+}
+
+.contacts p {
+	text-decoration: underline;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+
+.contacts ul li {
+	padding: 10px 0;
+}
 
 footer {
 	width: 100%;
